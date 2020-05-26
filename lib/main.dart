@@ -1,3 +1,4 @@
+import 'package:audio_video/views/Home.dart';
 import 'package:flutter/material.dart';
 
 void main(){
@@ -12,12 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue
       ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text("Audio Video Maintenance")
-        ),
-        body: Center(child: Text("Hello from Audio Video Maintenance"),),
-      )
+      home: Home()
     );
   }
 }
